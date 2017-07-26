@@ -4,7 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 % matplotlib inline
-# Always make it pretty.
+
 plt.style.use('ggplot')
 df = pd.read_csv('data/churn.csv')
 df.head(10)
